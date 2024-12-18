@@ -1,0 +1,1 @@
+export default eventHandler(event => serverAuth(event).handler(toWebRequest(event)))
